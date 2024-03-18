@@ -44,19 +44,20 @@ h2{
     align-items: flex-start;
     justify-content: center;
 }
-.botaoAtivo{
-    border: none;
-    border-bottom: 4px solid #6FFF57;
-    background-color: #3a375e;
-    color: white;
-    font-family: "Chakra Petch", sans-serif;
-    font-size: 18px;
-}
+
 .botoes{
     background-color: rgba(58, 55, 94, 0.3);
     border: none;
     border-bottom: 4px solid #3a375e;
     border-right: 2px solid #3a375e;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 18px;
+}
+.botaoAtivo{
+    border: none;
+    border-bottom: 4px solid #6FFF57;
+    background-color: #3a375e;
     color: white;
     font-family: "Chakra Petch", sans-serif;
     font-size: 18px;
