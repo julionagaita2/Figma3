@@ -1,15 +1,15 @@
-function cor(){
-    let botao= document.querySelectorAll('.botoes')
-    for(i= 0;i<botao.length;i++){
-        botao[i].onclick =function(){
-            for(j=0;j<botao.length;j++){
-                botao[j].classList.remove('ativo')
-                
-            }
-        botao[i].classList.add('botaoAtivo')
-        }
-    }
-    
-}
+const botoes = document.querySelectorAll(".botao");
+const textos = document.querySelectorAll(".aba-conteudo");
 
-    
+for (let i = 0; i < botoes.length; i++) {
+    botoes[i].onclick = function () {
+
+        for (let j = 0; j < botoes.length; j++) {
+            botoes[j].classList.remove("ativo");
+            textos[j].classList.remove("ativo");
+        }
+
+        botoes[i].classList.add("ativo");
+        textos[i].classList.add("ativo");
+    }
+}

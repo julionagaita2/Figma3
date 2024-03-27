@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Meus objetivos do ano</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title> 
 </head>
 <body>
-    <h1 id="title">Meus  objetivos esse ano <span>_</span>
-    </h1>
-    <section class="container">
-           
-            <button onclick='cor()' class='botaoAtivo' id="botao">Estudar para os vestibulares</button>
-            <button onclick='cor()' class='botoes' id="botao2">Seguir a dieta</button>
-            <button onclick='cor()' class='botoes' id="botao3">Manter as contas em dia</button>
-            <button onclick='cor()' class='botoes' id="botao4">Ler mais livros</button>
-        <div class="aba-textos">
-            <div class="abas-conteudo">
-                <h1 class="h1">Estudar TODAS as matérias para o vestibular</h1> 
-                <h2>TEMPO PARA COMPLETAR O OBJETIVO</h2>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
+        <div class="conteudo">
+        <div class="botoes">
+            <button class="botao ativo">Vestibular</button>
+            <button class="botao">Dieta e academia</button>
+            <button class="botao">Ler mais livros</button>
+            <button class="botao">Passar mais tempo em família</button>
+        </div>
+        <div class="abas-textos">
+            <div class="aba-conteudo ativo">
+                <h3 class="aba-conteudo-titulo-principal">Estudar todas as matérias até novembro</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
             </div>
-        
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Seguir a dieta de  segunda a sexta</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Ler a literatura brasileira e estrangeira</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Dedicar mais tempo do meu dia à minha família</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+        </div>
     </div>
-    
-
-        <h2></h2>
-        <div class="contador"></div>
     </section>
-   
     <script src="main.js"></script>
 </body>
 </html>
